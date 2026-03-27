@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# Virtual Environments
+venv/
+venv_web/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+background_backup.jpg
+background_original.jpg
+*.bak
+
+# Optimization scripts (not needed in production)
+optimize_background.py
+optimize_background_small.py
+optimize_background_tiny.py
+resize_background_800x600.py
+
+# Build cache (keep build/web for deployment)
+build/web-cache/
+
+# Score file (generated at runtime)
+score.txt
+
+# Deployment docs (optional - uncomment if you don't want these on GitHub)
+# DEPLOYMENT.md
+# WEB_BUILD_READY.md
